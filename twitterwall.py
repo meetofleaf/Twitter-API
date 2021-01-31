@@ -33,9 +33,9 @@ class StdOutListener(StreamListener):
 
             data_dict = json.loads(data)
             print(data_dict['user']['screen_name'])
-            print("_________________")
+            print("----------------------")
             print(data_dict['text'])
-            print("________________________________________")
+            print("--------------------------------------------------")
             #with open(self.fetched_tweets_filename, 'a') as tf:
             #    tf.write(data)
             return True

@@ -35,7 +35,7 @@ ACCESS_TOKEN = 'your_access_token'
 ACCESS_TOKEN_SECRET = 'your_access_token_secret'
 ```
 
-5. In the main function of the `twitter_stream.py` file, modify the `hash_tag_list` and `users` variables to the desired hashtags and user IDs that you want to stream.
+5. In the main function of the `twitterwall.py` file, modify the `hash_tag_list` and `users` variables to the desired hashtags and user IDs that you want to stream.
 
 ```python
 hash_tag_list = ["#tesla", "#elonmusk", "#spacex"]
